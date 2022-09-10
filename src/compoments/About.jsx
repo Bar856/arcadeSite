@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div id="about" className='aboutCont black'>
+    <div id="about" className='aboutCont heightWidth black'>
       <div className='row'>
         <h4>We Are Arcade!</h4>
       </div>

@@ -25,7 +25,7 @@ export default function Contact() {
   };
 
   return (
-    <div id="contact" className='aboutCont blackBG'>
+    <div id="contact" className='aboutCont heightWidth blackBG'>
       <div className='row'>
         <h4 className='center'>Contact Us</h4>
       </div>

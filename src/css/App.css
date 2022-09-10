@@ -1,15 +1,28 @@
-@font-face {
+/* @font-face {
   font-family: "OldNewspaperTypes";
   src: local("OldNewspaperTypes"),
    url("../fonts/OldNewspaperTypes/OldNewspaperTypes.ttf") format("truetype");
+} */
+@font-face {
+  font-family: "Quantify";
+  src: local("Quantify"),
+   url("../fonts/Quantify/Quantify.ttf") format("truetype");
 }
 * {
+  font-family: "Quantify";
+  font-weight: "Regular";
+}
+/* * {
   font-family: "OldNewspaperTypes";
   font-weight: lighter;
-}
+} */
 .testpic{
-  height: 300px;
-  width: 300px;
+  height: vw;
+  width:70vw;
+}
+.heightWidth{
+  height: 100vh; /* For 100% screen height */
+  width:  100vw; /* For 100% screen width */
 }
 .App {
   text-align: center;
@@ -19,43 +32,52 @@ body{
   background-color: black;
 }
 .smallFont{
-  font-size: 4vw;
+  font-size: 2vh;
 }
 h4{
-  font-size: 7vw;
+  font-size: 4vh;
 }
 .black{
   color: black;
 }
+.white{
+  color: white;
+}
 .center{
   text-align: center;
 }
+.djsSquares{
+  border: #F00000 4px solid;
+  height:20vh;
+  width:20vw;
+  padding: 4vw;
+  margin: 6vh;
+}
 .introContainer{
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 200px;
-  height: 844px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 21vh;
   background-color:#F413F4;
 }
 .contactContainer{
-  padding-top: 30px;
-  height: 82px;
-  margin-top: 262px;
+  height: 6vh;
+  padding-top: 1.5vh;
+  margin-top: 20vh;
+  /* margin-top: 50%; */
   background-color: black;
 }
 .aboutCont{
   background-color: rgba(255, 255, 255, 0.962);
-  padding: 25px;
+  padding: 5vw;
   text-align: left;
-  height: 844px;
-  margin-left: 23px;
-  margin-right: 23px;
+}
+.margeSides{
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 .liveSetsCont{
   background-color: rgba(255, 255, 255, 0.962);
-  padding: 25px;
-  margin-left: 23px;
-  margin-right: 23px;
+  padding: 3vw;  
 }
 .leftText{
   text-align: left;
@@ -74,26 +96,26 @@ h4{
   border-right:#F413F4 2px solid;
 }
 .formItem{
- height: 60px;
- padding: 10px;
+ height: 10vw;
+ padding: 1vw;
  margin: auto;
- margin-top: 10px;
- margin-bottom: 10px;
- border: #F413F4 1px double;
+ margin-top: 1vw;
+ margin-bottom: 2vw;
+ border: #F413F4 1px solid;
  background-color: black;
  text-align: center;
-  width: 300px; 
-  color: white;
+ width: 58vw;
+ color: white;
 }
 .text-flow{
   word-wrap: break-word;
-  height: 200px;
-  width: 300px;
+  height: 40vw;
+  width: 58vw;
 }
 .submitBtn{
-  width: 200px;
-  height: 40px;
-  padding-bottom: 50px;
+  height: 10vw;
+  width: 58vw;
+  padding-bottom: 1vw;
 }
 html{
   scroll-behavior: smooth;
@@ -108,24 +130,26 @@ html{
   background-color: rgb(111, 103, 103);
 }
 @media (min-width: 768px){
-  .formItem{
-    width: 600px; 
+   .formItem{
+    width: 50vw; 
     margin: auto;
-    margin-top: 10px;
+    margin-top: 2vw;
+    height: 5vw;
     margin-bottom: 10px;
   }
-  .rowWidth{
-    width: 200px;
+  .text-flow{
+    word-wrap: break-word;
+    height: 20vw;
+    width: 50vw;
   }
-  .smallFont{
-    font-size: 2vw;
+  .testpic{
+    height: 40vw;
+    width: 40vw;
   }
-  h4{
-    font-size: 4vw;
+  .contactContainer{
+    margin-top: 10vw;
   }
-
 }
-
 @media (min-width: 1200px){
    /* כאשר האתר בגודל מינימלי של 1200 פיקסלים הוא יוצג לפי הכללים שרשומים כאן */
    /* .smallFont{
@@ -135,4 +159,14 @@ html{
     font-size: 7vw;
   } */
    
+}
+.navbarCont{
+  /* color: white; */
+  /* height: 4vh; */
+  /* opacity: 90%; */
+  /* background-color: rgba(0, 0, 0, 0.61); */
+  backdrop-filter: blur(9px); 
+}
+.me-auto{
+  margin: auto;
 }

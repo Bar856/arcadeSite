@@ -3,7 +3,7 @@ import SoundcloudLink from './SoundcloudLink'
 export default function Sets() {
 
   return (
-    <div id="sets" className='black liveSetsCont'>
+    <div id="sets" className='black heightWidth liveSetsCont'>
       <div className='row'>
         <h4>Live Sets</h4>
       </div>      
