@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/arcadeSitey/static/css/main.59fd1817.css",
-    "main.js": "/arcadeSitey/static/js/main.990e4184.js",
-    "static/media/oneimg.png": "/arcadeSitey/static/media/oneimg.bfb87e0d415a5b627c31.png",
-    "static/media/OldNewspaperTypes.ttf": "/arcadeSitey/static/media/OldNewspaperTypes.db3851a38ae93f4cc91f.ttf",
-    "index.html": "/arcadeSitey/index.html",
-    "main.59fd1817.css.map": "/arcadeSitey/static/css/main.59fd1817.css.map",
-    "main.990e4184.js.map": "/arcadeSitey/static/js/main.990e4184.js.map"
+    "main.css": "/arcadeSite/static/css/main.51e7cccd.css",
+    "main.js": "/arcadeSite/static/js/main.38bc00bc.js",
+    "static/media/oneimg.png": "/arcadeSite/static/media/oneimg.bfb87e0d415a5b627c31.png",
+    "static/media/OldNewspaperTypes.ttf": "/arcadeSite/static/media/OldNewspaperTypes.db3851a38ae93f4cc91f.ttf",
+    "index.html": "/arcadeSite/index.html",
+    "main.51e7cccd.css.map": "/arcadeSite/static/css/main.51e7cccd.css.map",
+    "main.38bc00bc.js.map": "/arcadeSite/static/js/main.38bc00bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.59fd1817.css",
-    "static/js/main.990e4184.js"
+    "static/css/main.51e7cccd.css",
+    "static/js/main.38bc00bc.js"
   ]
 }
