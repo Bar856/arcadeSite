@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/arcadeSite/static/css/main.51e7cccd.css",
-    "main.js": "/arcadeSite/static/js/main.38bc00bc.js",
-    "static/media/oneimg.png": "/arcadeSite/static/media/oneimg.bfb87e0d415a5b627c31.png",
+    "main.css": "/arcadeSite/static/css/main.85b9c2fb.css",
+    "main.js": "/arcadeSite/static/js/main.2fb1930c.js",
     "static/media/OldNewspaperTypes.ttf": "/arcadeSite/static/media/OldNewspaperTypes.db3851a38ae93f4cc91f.ttf",
+    "static/media/Quantify.ttf": "/arcadeSite/static/media/Quantify.e44a16dadd185f5bcdae.ttf",
+    "static/media/oneimg.png": "/arcadeSite/static/media/oneimg.6b5ae19be650ae3c08b8.png",
     "index.html": "/arcadeSite/index.html",
-    "main.51e7cccd.css.map": "/arcadeSite/static/css/main.51e7cccd.css.map",
-    "main.38bc00bc.js.map": "/arcadeSite/static/js/main.38bc00bc.js.map"
+    "main.85b9c2fb.css.map": "/arcadeSite/static/css/main.85b9c2fb.css.map",
+    "main.2fb1930c.js.map": "/arcadeSite/static/js/main.2fb1930c.js.map"
   },
   "entrypoints": [
-    "static/css/main.51e7cccd.css",
-    "static/js/main.38bc00bc.js"
+    "static/css/main.85b9c2fb.css",
+    "static/js/main.2fb1930c.js"
   ]
 }
