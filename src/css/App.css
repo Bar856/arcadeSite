@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "OldNewspaperTypes";
+  src: local("OldNewspaperTypes"),
+   url("../fonts/OldNewspaperTypes/OldNewspaperTypes.ttf") format("truetype");
+}
+* {
+  font-family: "OldNewspaperTypes";
+  font-weight: lighter;
+}
+.testpic{
+  height: 300px;
+  width: 300px;
+}
+.App {
+  text-align: center;
+  color: white;
+}
+body{
+  background-color: black;
+}
+.smallFont{
+  font-size: 4vw;
+}
+h4{
+  font-size: 7vw;
+}
+.black{
+  color: black;
+}
+.center{
+  text-align: center;
+}
+.introContainer{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 200px;
+  height: 844px;
+  background-color:#F413F4;
+}
+.contactContainer{
+  padding-top: 30px;
+  height: 82px;
+  margin-top: 262px;
+  background-color: black;
+}
+.aboutCont{
+  background-color: rgba(255, 255, 255, 0.962);
+  padding: 25px;
+  text-align: left;
+  height: 844px;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.liveSetsCont{
+  background-color: rgba(255, 255, 255, 0.962);
+  padding: 25px;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.leftText{
+  text-align: left;
+}
+.blackBG{
+  background-color:black ;
+}
+.pinkBG{
+  background-color: #F413F4;
+}
+.pink{
+  color: #F413F4;
+}
+.pinkBoarders{
+  border-left:#F413F4 2px solid;
+  border-right:#F413F4 2px solid;
+}
+.formItem{
+ height: 60px;
+ padding: 10px;
+ margin: auto;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border: #F413F4 1px double;
+ background-color: black;
+ text-align: center;
+  width: 300px; 
+  color: white;
+}
+.text-flow{
+  word-wrap: break-word;
+  height: 200px;
+  width: 300px;
+}
+.submitBtn{
+  width: 200px;
+  height: 40px;
+  padding-bottom: 50px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.formItem:hover{
+  background-color: rgb(111, 103, 103);
+}
+.hoverMouse{
+  cursor: pointer; 
+}
+.hoverMouse:hover{
+  background-color: rgb(111, 103, 103);
+}
+@media (min-width: 768px){
+  .formItem{
+    width: 600px; 
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .rowWidth{
+    width: 200px;
+  }
+  .smallFont{
+    font-size: 2vw;
+  }
+  h4{
+    font-size: 4vw;
+  }
+
+}
+
+@media (min-width: 1200px){
+   /* כאשר האתר בגודל מינימלי של 1200 פיקסלים הוא יוצג לפי הכללים שרשומים כאן */
+   /* .smallFont{
+    font-size: 3.5vw;
+  }
+  h4{
+    font-size: 7vw;
+  } */
+   
+}
