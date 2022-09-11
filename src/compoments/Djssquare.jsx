@@ -1,11 +1,12 @@
 import React from 'react'
+import Col from 'react-bootstrap/esm/Col'
 
 export default function Djssquare(props) {
   return (
-    <div className='row'>
+    <div>
       {
-        props.djs.map((dj)=> {
-          return  <div className='col smallFont djsSquares'>{dj.name}</div>
+        props.djs.map((dj,i)=> {
+          return  <Col xs={4} md={4} key={i} className='smallFont djsSquares'>{dj.name}</Col>
         })
       }
     </div>

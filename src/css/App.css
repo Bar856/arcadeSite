@@ -3,6 +3,10 @@
   src: local("OldNewspaperTypes"),
    url("../fonts/OldNewspaperTypes/OldNewspaperTypes.ttf") format("truetype");
 } */
+/* * {
+  font-family: "OldNewspaperTypes";
+  font-weight: lighter;
+} */
 @font-face {
   font-family: "Quantify";
   src: local("Quantify"),
@@ -12,24 +16,30 @@
   font-family: "Quantify";
   font-weight: "Regular";
 }
-/* * {
-  font-family: "OldNewspaperTypes";
-  font-weight: lighter;
-} */
-.testpic{
-  height: vw;
-  width:70vw;
-}
-.heightWidth{
-  height: 100vh; /* For 100% screen height */
-  width:  100vw; /* For 100% screen width */
-}
+
 .App {
   text-align: center;
   color: white;
 }
 body{
   background-color: black;
+}
+.introContainer{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-color:#00eeff;
+}
+.contactContainer{
+  height: 5%;
+  background-color: black;
+}
+.heightWidth{
+  height: 100vh; 
+  width:  100vw; 
+}
+.aboutCont{
+  background-color: rgba(255, 255, 255, 0.962);
+  padding: 5vw;
 }
 .smallFont{
   font-size: 2vh;
@@ -47,30 +57,34 @@ h4{
   text-align: center;
 }
 .djsSquares{
-  border: #F00000 4px solid;
-  height:20vh;
-  width:20vw;
-  padding: 4vw;
-  margin: 6vh;
+  border: #ffcc00 4px solid;
+  /* text-align: center; */
+  /* height:20vh; */
+  /* width:20vw; */
+  padding: 6vh;
+  margin: 2vw;
 }
-.introContainer{
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-top: 21vh;
-  background-color:#F413F4;
-}
-.contactContainer{
-  height: 6vh;
-  padding-top: 1.5vh;
-  margin-top: 20vh;
-  /* margin-top: 50%; */
+.formItem{
+  height: 7vh;
+  padding: 0.5rem;
+  margin: auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border: #00eeff 1px solid;
   background-color: black;
-}
-.aboutCont{
-  background-color: rgba(255, 255, 255, 0.962);
-  padding: 5vw;
-  text-align: left;
-}
+  width: 58vw;
+  color: white;
+ }
+ .text-flow{
+   word-wrap: break-word;
+   height: 30vh;
+   width: 58vw;
+ }
+ .submitBtn{
+   height: 7vh;
+   width: 58vw;
+   padding-bottom: 1vw;
+ }
 .margeSides{
   margin-left: 2vw;
   margin-right: 2vw;
@@ -78,44 +92,26 @@ h4{
 .liveSetsCont{
   background-color: rgba(255, 255, 255, 0.962);
   padding: 3vw;  
+  margin: auto;
 }
 .leftText{
   text-align: left;
+}
+.rightText{
+  text-align: right;
 }
 .blackBG{
   background-color:black ;
 }
 .pinkBG{
-  background-color: #F413F4;
+  background-color: #00eeff;
 }
 .pink{
-  color: #F413F4;
+  color: #00eeff;
 }
 .pinkBoarders{
-  border-left:#F413F4 2px solid;
-  border-right:#F413F4 2px solid;
-}
-.formItem{
- height: 10vw;
- padding: 1vw;
- margin: auto;
- margin-top: 1vw;
- margin-bottom: 2vw;
- border: #F413F4 1px solid;
- background-color: black;
- text-align: center;
- width: 58vw;
- color: white;
-}
-.text-flow{
-  word-wrap: break-word;
-  height: 40vw;
-  width: 58vw;
-}
-.submitBtn{
-  height: 10vw;
-  width: 58vw;
-  padding-bottom: 1vw;
+  border-left:#00eeff 2px solid;
+  border-right:#00eeff 2px solid;
 }
 html{
   scroll-behavior: smooth;
@@ -130,42 +126,10 @@ html{
   background-color: rgb(111, 103, 103);
 }
 @media (min-width: 768px){
-   .formItem{
-    width: 50vw; 
-    margin: auto;
-    margin-top: 2vw;
-    height: 5vw;
-    margin-bottom: 10px;
-  }
-  .text-flow{
-    word-wrap: break-word;
-    height: 20vw;
-    width: 50vw;
-  }
-  .testpic{
-    height: 40vw;
-    width: 40vw;
-  }
-  .contactContainer{
-    margin-top: 10vw;
-  }
+
 }
 @media (min-width: 1200px){
-   /* כאשר האתר בגודל מינימלי של 1200 פיקסלים הוא יוצג לפי הכללים שרשומים כאן */
-   /* .smallFont{
-    font-size: 3.5vw;
-  }
-  h4{
-    font-size: 7vw;
-  } */
    
-}
-.navbarCont{
-  /* color: white; */
-  /* height: 4vh; */
-  /* opacity: 90%; */
-  /* background-color: rgba(0, 0, 0, 0.61); */
-  backdrop-filter: blur(9px); 
 }
 .me-auto{
   margin: auto;

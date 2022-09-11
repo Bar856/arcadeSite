@@ -6,13 +6,11 @@ export default function SoundcloudLink(props) {
     const widthSoundcloud = "auto"
   
     return (
-      <div>
         <ReactPlayer
               allow="autoplay"
               width={widthSoundcloud}
               height={heighSoundcloud}
               url={props.url}
         />
-      </div>
   )
 }

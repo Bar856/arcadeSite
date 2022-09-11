@@ -1,7 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
+import { useState } from 'react';
 import Homepage from './compoments/Homepage';
-import Sidebar from './compoments/Sidebar';
+import MyNavabr from './compoments/MyNavabr';
 import './css/App.css';
 import './fonts/OldNewspaperTypes/OldNewspaperTypes.ttf'
 import {
@@ -9,20 +10,21 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
+import Container from 'react-bootstrap/esm/Container';
 
 function App() {
+  const [pageLng, setPageLng] = useState("Eng")
+
   return (
-    
-    <div className="App" id="outer-container" style={{"textAlign":"rtl"}}>
-      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+    <div className="App" style={pageLng === "Eng" ? {"textAlign":"ltr"} : {"textAlign":"rtl"}}>
+      {/* <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} /> */}
+        <MyNavabr />
       <Router>
-        <div className='container'>
-          {/* <div id="page-wrap"> */}
-              <Routes>
-                <Route path={'/arcadeSite'} element={<Homepage/>}/>
-              </Routes>
-          {/* </div> */}
-        </div>
+        <Container fluid>
+          <Routes>
+            <Route path={'/arcadeSite'} element={<Homepage setPageLng={setPageLng} pageLng={pageLng}/>}/>
+          </Routes>
+        </Container >
       </Router>
     </div>
   );

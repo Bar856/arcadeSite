@@ -1,6 +1,7 @@
 import React from 'react'
 import { send } from 'emailjs-com';
 import { useState } from 'react';
+import Row from 'react-bootstrap/esm/Row'
 export default function Contact() {
   const [toSend, setToSend] = useState({
     from_name: '',
@@ -8,7 +9,7 @@ export default function Contact() {
     from_email: '',
     message: '',
   });
-
+  
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -26,28 +27,26 @@ export default function Contact() {
 
   return (
     <div id="contact" className='aboutCont heightWidth blackBG'>
-      <div className='row'>
+      <Row >
         <h4 className='center'>Contact Us</h4>
-      </div>
-      <div className='container'>
+      </Row>
       <form onSubmit={onSubmit}>
-          <div className='row'>
+          <Row >
             <input onChange={handleChange} maxLength={15} className='formItem smallFont' type="text" placeholder='NAME' name="from_name" />
-          </div>
-          <div className='row'>
+          </Row>
+          <Row >
             <input onChange={handleChange} maxLength={10} className='formItem smallFont' type="text" placeholder='PHONE' name="from_phone" />
-          </div>
-          <div className='row'>
+          </Row>
+          <Row >
             <input onChange={handleChange} maxLength={40} className='formItem smallFont' type="text" placeholder='EMAIL' name="from_email" />
-          </div>
-          <div className='row'>
+          </Row>
+          <Row >
             <textarea onChange={handleChange} className='text-flow formItem smallFont' type="text" placeholder='SAY SOMETHIGN' name="message"/>
-          </div>
-          <div className='row'>
+          </Row>
+          <Row >
             <input className='submitBtn formItem rowWidth smallFont' type="submit" value="Send"/>
-          </div>
+          </Row>
         </form>
-      </div>
   </div>
   )
 }

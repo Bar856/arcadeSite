@@ -7,9 +7,7 @@ export default function Djs() {
   return (
     <div id="djs" className='aboutCont heightWidth black'>
       <h4>DJS</h4>
-      <p className='smallFont'>
         <Djssquare djs={djsArray} />
-      </p>
-  </div>
+    </div>
   )
 }
