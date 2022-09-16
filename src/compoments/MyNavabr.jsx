@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function MyNavabr() {
   return (
-    <Navbar sticky="top" id="navbar navbarCont sticky" bg="dark" expand="lg">
+    <Navbar className='navBar' collapseOnSelect={true} sticky="top" fixed='top' id="navbar navbarCont sticky" bg="dark" expand="xl">
     <Container >
       <Navbar.Text className='white' href="#home">Arcade</Navbar.Text>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

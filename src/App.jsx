@@ -17,8 +17,7 @@ function App() {
   
   return (
     <div className="App" style={pageLng === "Eng" ? {"textAlign":"ltr"} : {"textAlign":"rtl"}}>
-      {/* <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} /> */}
-        <MyNavabr />
+      <MyNavabr />
       <Router>
         <Container fluid>
           <Routes>
