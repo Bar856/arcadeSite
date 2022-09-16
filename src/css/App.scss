@@ -9,6 +9,7 @@
 } */
 $baseColor: #00eeff;
 $fontColor: #ffffff;
+$navColor: rgba(33,37,41,255);
 @font-face {
   font-family: "Quantify";
   src: local("Quantify"),
@@ -45,14 +46,14 @@ body{
 }
 .contactContainer{
   height: 5%;
-  background-color: rgba(33,37,41,255);
+  background-color: $navColor;
   padding-top: 1vh;
   margin-top: 52vh;
 }
-.heightWidth{
-  height: 100vh; 
-  width:  100vw; 
-}
+// .heightWidth{
+//   height: 100vh; 
+//   width:  100vw; 
+// }
 .aboutCont{
   // background-color: rgba(255, 255, 255, 0.962);
   padding: 5vw;
@@ -73,7 +74,7 @@ h4{
   text-align: center;
 }
 .djsSquares{
-  border: #ffcc00 4px solid;
+  border: $fontColor 3px solid;
   padding: 6vh;
   margin: 2vw;
 }
@@ -83,8 +84,8 @@ h4{
   margin: auto;
   margin-top: 1vh;
   margin-bottom: 1vh;
-  border: $baseColor 1px solid;
-  background-color: black;
+  border: $navColor 1px solid;
+  background-color: $navColor ;
   width: 58vw;
   color: white;
  }
@@ -130,13 +131,13 @@ html{
   scroll-behavior: smooth;
 }
 .formItem:hover{
-  background-color: rgb(111, 103, 103);
+  // background-color: rgba(255, 255, 255, 0);
 }
 .hoverMouse{
   cursor: pointer; 
 }
 .hoverMouse:hover{
-  background-color: rgb(111, 103, 103);
+  // background-color: rgba(255, 255, 255, 0)
 }
 .me-auto{
   margin: auto;

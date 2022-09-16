@@ -14,7 +14,7 @@ import Container from 'react-bootstrap/esm/Container';
 
 function App() {
   const [pageLng, setPageLng] = useState("Eng")
-
+  
   return (
     <div className="App" style={pageLng === "Eng" ? {"textAlign":"ltr"} : {"textAlign":"rtl"}}>
       {/* <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} /> */}

@@ -32,7 +32,7 @@ export default function Introduction(props) {
       </ButtonGroup>
       <Row>
         <Col>
-        <Image className='imgInto' src={pic1} alt="Arcade" />
+        <Image onClick={()=>openInNewTab(("https://pacman-react.netlify.app"))} className='imgInto' src={pic1} alt="Arcade" />
         </Col>
       </Row>
       <Row className='contactContainer margeSides'>

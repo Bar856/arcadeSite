@@ -1,14 +1,15 @@
 import React from 'react'
 import Col from 'react-bootstrap/esm/Col'
+import Row from 'react-bootstrap/esm/Row'
 
 export default function Djssquare(props) {
   return (
-    <div>
+    <Row>
       {
         props.djs.map((dj,i)=> {
-          return  <Col xs={4} md={4} key={i} className='fontColor smallFont djsSquares'>{dj.name}</Col>
+          return  <Col xs={6} md={3} key={i} className='fontColor smallFont djsSquares'>{dj.name}</Col>
         })
       }
-    </div>
+    </Row>
   )
 }
