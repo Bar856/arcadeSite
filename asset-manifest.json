@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/arcadeSite/static/css/main.e09790ab.css",
-    "main.js": "/arcadeSite/static/js/main.62ee27c6.js",
+    "main.css": "/arcadeSite/static/css/main.20857788.css",
+    "main.js": "/arcadeSite/static/js/main.10110427.js",
     "static/media/bg.jpg": "/arcadeSite/static/media/bg.bc67f3bc576dc2377f25.jpg",
     "static/media/OldNewspaperTypes.ttf": "/arcadeSite/static/media/OldNewspaperTypes.db3851a38ae93f4cc91f.ttf",
     "static/media/Quantify.ttf": "/arcadeSite/static/media/Quantify.e44a16dadd185f5bcdae.ttf",
     "static/media/arcadeLogo.png": "/arcadeSite/static/media/arcadeLogo.c7220f5210dbf82affe2.png",
     "index.html": "/arcadeSite/index.html",
-    "main.e09790ab.css.map": "/arcadeSite/static/css/main.e09790ab.css.map",
-    "main.62ee27c6.js.map": "/arcadeSite/static/js/main.62ee27c6.js.map"
+    "main.20857788.css.map": "/arcadeSite/static/css/main.20857788.css.map",
+    "main.10110427.js.map": "/arcadeSite/static/js/main.10110427.js.map"
   },
   "entrypoints": [
-    "static/css/main.e09790ab.css",
-    "static/js/main.62ee27c6.js"
+    "static/css/main.20857788.css",
+    "static/js/main.10110427.js"
   ]
 }
