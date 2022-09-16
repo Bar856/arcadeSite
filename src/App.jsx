@@ -3,7 +3,7 @@ import React from 'react';
 import { useState } from 'react';
 import Homepage from './compoments/Homepage';
 import MyNavabr from './compoments/MyNavabr';
-import './css/App.css';
+import './css/App.scss';
 import './fonts/OldNewspaperTypes/OldNewspaperTypes.ttf'
 import {
   BrowserRouter as Router,

@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import Col from 'react-bootstrap/esm/Col';
 import Row from 'react-bootstrap/esm/Row';
-import pic1 from '../pics/oneimg.png'
+import pic1 from '../pics/arcadeLogo.png'
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Image from 'react-bootstrap/Image';
@@ -27,11 +27,13 @@ export default function Introduction(props) {
   return (
     <div id="home" className='introContainer heightWidth'>
       <ButtonGroup size={"sm"} aria-label="Basic example">
-        <Button onClick={clickEng} variant={engPushed ? "secondary" : ""} >Eng</Button>
-        <Button onClick={clickHeb} variant={hebPushed ? "secondary" : ""} >עב</Button>
+        <Button className='fontColor' onClick={clickEng} variant={engPushed ? "secondary" : ""} >{hebPushed ? 'אנג' : 'En'}</Button>
+        <Button className='fontColor' onClick={clickHeb} variant={hebPushed ? "secondary" : ""} >{engPushed ? 'He' : 'עב'}</Button>
       </ButtonGroup>
       <Row>
-        <Image src={pic1} alt="Arcade" />
+        <Col>
+        <Image className='imgInto' src={pic1} alt="Arcade" />
+        </Col>
       </Row>
       <Row className='contactContainer margeSides'>
         <Col>

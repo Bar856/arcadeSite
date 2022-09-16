@@ -6,7 +6,7 @@ export default function Djssquare(props) {
     <div>
       {
         props.djs.map((dj,i)=> {
-          return  <Col xs={4} md={4} key={i} className='smallFont djsSquares'>{dj.name}</Col>
+          return  <Col xs={4} md={4} key={i} className='fontColor smallFont djsSquares'>{dj.name}</Col>
         })
       }
     </div>
