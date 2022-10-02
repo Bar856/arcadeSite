@@ -32,7 +32,6 @@ export default function Sets() {
         <SoundcloudLink url="https://soundcloud.com/javaliofficial/javali" />
         <SoundcloudLink url="https://soundcloud.com/javaliofficial/techno-live-set" />
         <SoundcloudLink url="https://soundcloud.com/javaliofficial/hatula-live-set-27719-il" />
-        <h4 className='leftText fontColor smallFont'>Yagel</h4>
 
     </div>
   )
